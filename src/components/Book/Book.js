@@ -1,8 +1,8 @@
 import React from "react";
 import "./Book.css";
 const Book = (props) => {
-  const { book } = props;
-  console.log(book);
+  const { book,addToCart } = props;
+  // console.log(addToCart);
   return (
     <div className="single-book">
       <img src={book.img} alt="" />
@@ -12,7 +12,7 @@ const Book = (props) => {
         <p>বিভাগঃ {book.category}</p>
         <p><strong>মূল্যঃ {book.price} টাকা</strong></p>
         <p>রেটিংঃ {book.ratings}</p>
-      <button>Add to cart</button>
+      <button onClick={()=>addToCart(book)}>Add to cart</button>
       </div>
     </div>
   );
