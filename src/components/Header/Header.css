@@ -2,7 +2,17 @@
     text-align: center;
     width: 50px;
 } */
+header{
+    height: 70px;
+    background-color: rgba(255, 166, 0, 0.747);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 h1{
     text-align: center;
     color: red;
+    margin: 0;
+    padding: 0;
 }

@@ -3,11 +3,11 @@ import Book from '../Book/Book';
 import './Books.css'
 const Books = (props) => {
     const {books}=props;
-    console.log(books);
+    // console.log(books);
     return (
-        <div>
+        <div className='all-books'>
             {books.map(book=>{
-                return <Book></Book>
+                return <Book key={book.id} book={book}></Book>
             })}
         </div>
     );
