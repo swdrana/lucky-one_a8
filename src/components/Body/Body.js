@@ -3,6 +3,7 @@ import Books from "../Books/Books";
 import Cart from "../Cart/Cart";
 import "./Body.css";
 const Body = () => {
+
   //load books from json
   const [books, setBooks] = useState([]);
   useEffect(() => {
@@ -20,10 +21,11 @@ const Body = () => {
     }
   };
 
-  // clear cart
+  // clear cart function
   const clearCart = () => {
     setCart([]);
   };
+  
   return (
     <div className="body">
       <Books books={books} addToCart={addToCart}></Books>
