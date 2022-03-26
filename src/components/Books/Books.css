@@ -1,9 +1,12 @@
-
+/* this style for books.js  */
 .all-books{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 25px;
 }
+
+
+/* responsive design  */
 @media only screen and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
     .all-books{

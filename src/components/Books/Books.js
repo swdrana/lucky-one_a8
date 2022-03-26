@@ -1,8 +1,10 @@
 import React from 'react';
 import Book from '../Book/Book';
 import './Books.css'
-const Books = (props) => {
-    const {books,addToCart}=props;
+const Books = ({books,addToCart}) => {
+    //destructuring object
+    // const {books,addToCart}=props;
+    
     // console.log(books);
     return (
         <div className='all-books'>
