@@ -15,11 +15,10 @@ const Body = () => {
   //add to cart function
   const [cart, setCart] = useState([]);
   const addToCart = (cartInfo) => {
-      if(cart.length<4){
-        setCart([...cart, cartInfo]);
-      }
+    if (cart.length < 4) {
+      setCart([...cart, cartInfo]);
+    }
   };
-//   console.log(cart);
 
   // clear cart
   const clearCart = () => {
