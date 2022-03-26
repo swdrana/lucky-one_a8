@@ -14,7 +14,8 @@
 .random-book-name{
     text-align: center;
 }
-.btn-random{
+.btn-random, .btn-clear{
+    width: 160px;
     background-color: red;
     border: 1px solid gray;
     margin: 20px 82px;
@@ -24,4 +25,11 @@
 }
 .btn-random:active{
     background-color: rgb(180, 0, 0);
+}
+.btn-clear{
+    background-color: rgba(255, 166, 0, 0.747);
+    color: black;
+}
+.btn-clear:active{
+    background-color: rgba(175, 114, 0, 0.747);
 }

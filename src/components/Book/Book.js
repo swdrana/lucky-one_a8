@@ -12,7 +12,8 @@ const Book = (props) => {
         <p>বিভাগঃ {book.category}</p>
         <p><strong>মূল্যঃ {book.price} টাকা</strong></p>
         <p>রেটিংঃ {book.ratings}</p>
-      <button onClick={()=>addToCart(book)}>Add to cart</button>
+      <button onClick={()=>addToCart(book)}>Add to cart {`  `}
+      <i className="fa fa-cart-plus"></i></button>
       </div>
     </div>
   );

@@ -2,18 +2,25 @@ import React, { useState } from "react";
 import CartInfo from "../CartInfo/CartInfo";
 import "./Cart.css";
 const Cart = (props) => {
-  const { insideCart } = props;
-
+  //destructuring props
+  const { insideCart, clearCart } = props;
+  // console.log();
   //create random
   const [random, setRandom] = useState(0);
   const choseRandomly = () => {
-    setRandom(Math.floor(Math.random() * insideCart.length ));
-    if(insideCart[0]){
+    setRandom(Math.floor(Math.random() * insideCart.length));
+    //when cart is empty
+    if (insideCart[0] === undefined) {
+      setRandomBook("");
+    }
+    //when cart have at least one product
+    if (insideCart[0]) {
       setRandomBook(insideCart[random].name);
     }
   };
   //show random book name to ui
-  const [randomBook, setRandomBook] = useState('');
+  const [randomBook, setRandomBook] = useState("");
+  
   return (
     <div className="cart">
       <h3>Selected Item: {insideCart.length}</h3>
@@ -22,7 +29,13 @@ const Cart = (props) => {
       ))}
       <h3>Randomly Chosen</h3>
       <p className="random-book-name">{randomBook}</p>
-      <button onClick={()=>choseRandomly()} className="btn-random">Chose Randomly</button>
+      <button onClick={() => choseRandomly()} className="btn-random">
+        Chose Randomly <i class="fa fa-random" aria-hidden="true"></i>
+      </button>
+      <button onClick={() => clearCart()} className="btn-clear">
+        Clear Cart <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+
+      </button>
     </div>
   );
 };
