@@ -11,3 +11,17 @@
     margin-top: 5px;
     text-align: center;
 }
+.random-book-name{
+    text-align: center;
+}
+.btn-random{
+    background-color: red;
+    border: 1px solid gray;
+    margin: 20px 82px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-random:active{
+    background-color: rgb(180, 0, 0);
+}
