@@ -10,12 +10,12 @@ Example of Desktop View:
 
 [](https://bookfair-swdrana.netlify.app/)
 
-![Untitled](Book%20Fair%20c910d/Untitled.png)
+![Untitled](README/Untitled.png)
 
 ### Example of Tablet View:
 
 ### Example of Mobile View:
 
-![Untitled](Book%20Fair%20c910d/Untitled%201.png)
+![Untitled](README/Untitled%201.png)
 
-![Untitled](Book%20Fair%20c910d/Untitled%202.png)
+![Untitled](README/Untitled%202.png)
