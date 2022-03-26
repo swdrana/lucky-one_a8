@@ -6,7 +6,7 @@ see more about my project: [github.com/swdrana](https://www.github.com/swdrana)
 
 ## Live Site Link: [https://bookfair-swdrana.netlify.app/](https://bookfair-swdrana.netlify.app/)
 
-Example of Desktop View:
+### Example of Desktop View:
 
 [](https://bookfair-swdrana.netlify.app/)
 
