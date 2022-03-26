@@ -49,32 +49,46 @@ const FAQ = () => {
           তফাৎ। নিন্মে ছকের মাধ্যমে এ দুইয়ের পার্থক্য দেখানো হলঃ{" "}
         </p>
         <table>
-          <tr>
-            <th>Props</th>
-            <th>State</th>
-          </tr>
-          <tr>
-            <td>Props হল read only অর্থাৎ ডাটা পেলে সেটিকে ব্যবহার করা যাবে কিন্তু পরিবর্তন করা যাবে না। </td>
-            <td>State এর ডাটা পরিবর্তন যোগ্য।</td>
-          </tr>
-          <tr>
-            <td>Props হয় immutable বা অপরিবর্তনীয়। </td>
-            <td>State হল mutable বা পরিবর্তনযোগ্য। </td>
-          </tr>
-          <tr>
-            <td>Props কে তার child component access করতে পারে।</td>
-            <td>State কে তার child component access করতে পারে না। </td>
-          </tr>
-          <tr>
-            <td>এটি components কে reusable (পুনারায় ব্যবহার) করতে পারে। </td>
-            <td>এটি components কে reusable (পুনারায় ব্যবহার) করতে পারে না।</td>
-          </tr>
-          <tr>
-            <td>Stateless component এ Props থাকতে পারে। </td>
-            <td>Stateless component এ Props থাকতে পারে না। </td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Props</th>
+              <th>State</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                Props হল read only অর্থাৎ ডাটা পেলে সেটিকে ব্যবহার করা যাবে
+                কিন্তু পরিবর্তন করা যাবে না।{" "}
+              </td>
+              <td>State এর ডাটা পরিবর্তন যোগ্য।</td>
+            </tr>
+            <tr>
+              <td>Props হয় immutable বা অপরিবর্তনীয়। </td>
+              <td>State হল mutable বা পরিবর্তনযোগ্য। </td>
+            </tr>
+            <tr>
+              <td>Props কে তার child component access করতে পারে।</td>
+              <td>State কে তার child component access করতে পারে না। </td>
+            </tr>
+            <tr>
+              <td>এটি components কে reusable (পুনারায় ব্যবহার) করতে পারে। </td>
+              <td>
+                এটি components কে reusable (পুনারায় ব্যবহার) করতে পারে না।
+              </td>
+            </tr>
+            <tr>
+              <td>Stateless component এ Props থাকতে পারে। </td>
+              <td>Stateless component এ Props থাকতে পারে না। </td>
+            </tr>
+          </tbody>
         </table>
-        <p>উপরিক্ত আলোচনার মাধ্যমে আমরা Props ও State সম্পর্কে সাধারণ কিছু তথ্য ও এদের মধ্যে পার্থক্য সম্পর্কে জানতে পারলাম, এগুলো নিয়ে কাজ করার সময় আমাদের উক্ত বিষয়গুলি খেয়াল রেখেই সঠিকভাবে ব্যবহার করতে হবে নতুবা, কাঙ্ক্ষিত ফলাফল না পাওয়া ছাড়াও বিভিন্ন সমস্যার সম্মুখীন হতে হবে। </p>
+        <p>
+          উপরিক্ত আলোচনার মাধ্যমে আমরা Props ও State সম্পর্কে সাধারণ কিছু তথ্য ও
+          এদের মধ্যে পার্থক্য সম্পর্কে জানতে পারলাম, এগুলো নিয়ে কাজ করার সময়
+          আমাদের উক্ত বিষয়গুলি খেয়াল রেখেই সঠিকভাবে ব্যবহার করতে হবে নতুবা,
+          কাঙ্ক্ষিত ফলাফল না পাওয়া ছাড়াও বিভিন্ন সমস্যার সম্মুখীন হতে হবে।{" "}
+        </p>
       </div>
     </div>
   );

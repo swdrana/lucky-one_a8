@@ -26,9 +26,10 @@ const Cart = (props) => {
   return (
     <div className="cart">
       <h3>Selected Item: {insideCart.length} Out of 4</h3>
-      {insideCart.map((aCart) => (
-        <CartInfo key={Math.random()} aCart={aCart}></CartInfo>
-      ))}
+      {insideCart.map((aCart) => {
+       return <CartInfo key={Math.random()} aCart={aCart}></CartInfo>
+      }
+      )}
       <h3>Randomly Chosen</h3>
       <p className="random-book-name">{randomBook}</p>
       
