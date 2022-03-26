@@ -14,8 +14,8 @@ Example of Desktop View:
 
 ### Example of Tablet View:
 
-### Example of Mobile View:
-
 ![Untitled](README/Untitled%201.png)
+
+### Example of Mobile View:
 
 ![Untitled](README/Untitled%202.png)
