@@ -31,10 +31,10 @@ const Cart = (props) => {
       <p className="random-book-name">{randomBook}</p>
       <div className="btn-group">
         <button onClick={() => choseRandomly()} className="btn-random">
-          Chose Randomly <i class="fa fa-random" aria-hidden="true"></i>
+          Chose Randomly <i className="fa fa-random" aria-hidden="true"></i>
         </button>
         <button onClick={() => clearCart()} className="btn-clear">
-          Clear Cart <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+          Clear Cart <i className="fa fa-times-circle-o" aria-hidden="true"></i>
         </button>
       </div>
     </div>
