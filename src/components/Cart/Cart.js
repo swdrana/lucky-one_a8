@@ -23,7 +23,7 @@ const Cart = (props) => {
 
   return (
     <div className="cart">
-      <h3>Selected Item: {insideCart.length}</h3>
+      <h3>Selected Item: {insideCart.length} Out of 4</h3>
       {insideCart.map((aCart) => (
         <CartInfo key={aCart.id} aCart={aCart}></CartInfo>
       ))}
