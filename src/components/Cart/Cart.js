@@ -20,7 +20,7 @@ const Cart = (props) => {
   };
   //show random book name to ui
   const [randomBook, setRandomBook] = useState("");
-  
+
   return (
     <div className="cart">
       <h3>Selected Item: {insideCart.length}</h3>
@@ -29,13 +29,14 @@ const Cart = (props) => {
       ))}
       <h3>Randomly Chosen</h3>
       <p className="random-book-name">{randomBook}</p>
-      <button onClick={() => choseRandomly()} className="btn-random">
-        Chose Randomly <i class="fa fa-random" aria-hidden="true"></i>
-      </button>
-      <button onClick={() => clearCart()} className="btn-clear">
-        Clear Cart <i class="fa fa-times-circle-o" aria-hidden="true"></i>
-
-      </button>
+      <div className="btn-group">
+        <button onClick={() => choseRandomly()} className="btn-random">
+          Chose Randomly <i class="fa fa-random" aria-hidden="true"></i>
+        </button>
+        <button onClick={() => clearCart()} className="btn-clear">
+          Clear Cart <i class="fa fa-times-circle-o" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
   );
 };

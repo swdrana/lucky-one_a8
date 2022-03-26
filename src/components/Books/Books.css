@@ -9,6 +9,7 @@
     .all-books{
         grid-template-columns: repeat(2,1fr);
     }
+    .all-books:nth-of-type(1) { order: 2;}
 }
 @media only screen and (max-width: 600px){
 	/*Big smartphones [426px -> 600px]*/
