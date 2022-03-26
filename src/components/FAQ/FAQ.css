@@ -11,3 +11,20 @@
     margin: 15px 10px;
     text-align: justify;
 }
+.faq table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+    max-width: 800px;
+}
+.faq td,th{
+    padding: 1em;
+    background:rgba(255, 166, 0, 0.349);
+    border-bottom: 2px solid white; 
+    padding: 10px 20px;
+    width: 50%;
+}
+.faq th{
+    background-color:rgb(255 166 0 / 75%);
+}
