@@ -1,3 +1,4 @@
+/* this style is for book.js file  */
 *{
     margin: 0;
     padding: 0;
@@ -17,6 +18,8 @@
     border-radius: 15px;
     margin: 5px;
 }
+
+/* book info section style start from here  */
 .info{
     margin-left: 10px;
     margin-top: 5px;
