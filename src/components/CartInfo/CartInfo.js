@@ -1,6 +1,7 @@
 import React from 'react';
 import './CartInfo.css'
 const CartInfo = (props) => {
+    //destructuring props
     const {aCart} = props;
     return (
         <div className='cart-item'>
